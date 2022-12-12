@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import Navbar from "./components/navbar/Navbar";
 
-function App() {
+const App = () => {
+  // initialze and set visual height
+  const [height, setHeight] = useState(visualViewport.height);
+  document.documentElement.style.setProperty("--visual-height", `${height}px`);
+
+  // func for modify height in css var
+  const handleHeight = () => {
+    document.documentElement.style.setProperty(
+      "--visual-height",
+      `${height}px`
+    );
+    setHeight(visualViewport.height);
+  };
+
+  // get and update visual height
+  useEffect(() => {
+    window.addEventListener("resize", handleHeight);
+    return () => {
+      window.removeEventListener("resize", handleHeight);
+    };
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
     </div>
   );
-}
+};
 
 export default App;
