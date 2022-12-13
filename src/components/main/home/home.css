@@ -13,7 +13,8 @@
     min-height: 80vh;
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    justify-content: space-between;
+    padding: 1rem .5rem;
 }
 
 .hero__text {
@@ -27,21 +28,109 @@
     height: 150px;
     width: 100%;
     max-width: 290px;
-    margin: 0 auto;
+    align-self: center;
     padding: .5rem;
 }
 
-.hero__text h1{
+.hero__text h1 {
     font-size: 1.8rem;
     font-weight: 900;
+    color: #000;
+    margin-bottom: .8rem;
 }
 
-.hero__text h4{
+.hero__text h4 {
     font-size: 1.4rem;
     font-weight: 700;
+    color: #3C4048;
+    width: 100%;
+    max-width: 280px;
 }
 
-.hero__text p{
+.hero__text p {
     font-size: 1.4rem;
     font-weight: 600;
+    color: #3C4048;
+    margin-top: .8rem;
 }
+
+.hero__cta {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__cta button {
+    width: 170px;
+    height: 40px;
+    margin: .5rem 0;
+    border-radius: 5px;
+    border: 2px solid #7F8487;
+    outline: none;
+    background: #FFE1E1;
+    font-size: 1.4rem;
+    font-family: 'Shabnam';
+    cursor: pointer;
+    transition: .2s all ease-in;
+}
+
+.hero__cta button:nth-child(1):hover,
+.hero__cta button:nth-child(1):active {
+    background: #fcd7d7;
+}
+
+.hero__cta button:nth-child(2) {
+    background: none;
+}
+
+.hero__cta button:nth-child(2):hover,
+.hero__cta button:nth-child(2):active {
+    background: #FFE1E1;
+}
+
+
+
+
+
+
+/*******/
+/*************/
+/*********************/
+/******************************/
+/***************************************/
+/****************** media query *****************/
+/***************************************/
+/******************************/
+/*********************/
+/*************/
+/*******/
+
+@media only screen and (min-width: 320px) {
+    .hero {
+        padding: 1rem 1rem;
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .hero {
+        padding: 1rem 1.5rem;
+    }
+
+    .hero__text {
+        align-self: flex-start;
+    }
+}
+
+@media only screen and (min-width: 460px) {}
+
+@media only screen and (min-width: 550px) {}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 750px) {}
+
+@media only screen and (min-width: 950px) {}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (min-width: 1300px) {}

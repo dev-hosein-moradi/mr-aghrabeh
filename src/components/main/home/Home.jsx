@@ -11,7 +11,10 @@ const Home = () => {
           <h4>شیک ترین ساعت ها را ما به شما می دهیم</h4>
           <p>با مستر عقربه زمان را سپری کن</p>
         </div>
-        <div className="hero__cta"></div>
+        <div className="hero__cta">
+          <button>دانلود</button>
+          <button>مشاهده محصولات</button>
+        </div>
       </section>
     </div>
   );
