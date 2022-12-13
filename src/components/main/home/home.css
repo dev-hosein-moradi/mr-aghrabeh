@@ -25,7 +25,7 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    height: 150px;
+    height: 120px;
     width: 100%;
     max-width: 290px;
     align-self: center;
@@ -87,6 +87,18 @@
 .hero__cta button:nth-child(2):active {
     background: #FFE1E1;
 }
+
+/* 
+navbar= add animation to navbar content.
+*/
+
+/* 
+1= add animation to hero text.
+*/
+
+/* 
+2= add animation to cta btn.
+*/
 
 
 
