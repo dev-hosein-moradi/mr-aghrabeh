@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
+import Home from "./components/main/home/Home";
 import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
@@ -24,8 +25,9 @@ const App = () => {
     };
   }, []);
   return (
-    <div>
+    <div className="App">
       <Navbar />
+      <Home />
     </div>
   );
 };
