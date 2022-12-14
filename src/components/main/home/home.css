@@ -31,12 +31,12 @@
     align-self: center;
     padding: .5rem;
     text-align: center;
-    animation: right__left 1s 1 forwards;
+    animation: right__left 1.5s 1 forwards;
 }
 
 @keyframes right__left {
     0% {
-        transform: translateX(500px) skew(70deg);
+        transform: translateX(900px) skew(70deg);
     }
 
     100% {
