@@ -31,6 +31,17 @@
     align-self: center;
     padding: .5rem;
     text-align: center;
+    animation: right__left 1s 1 forwards;
+}
+
+@keyframes right__left {
+    0% {
+        transform: translateX(500px) skew(70deg);
+    }
+
+    100% {
+        transform: translateX(0) skew(0);
+    }
 }
 
 .hero__text h1 {
@@ -88,10 +99,6 @@
 .hero__cta button:nth-child(2):active {
     background: #FFE1E1;
 }
-
-/* 
-navbar= add animation to navbar content.
-*/
 
 /* 
 1= add animation to hero text.
