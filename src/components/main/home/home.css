@@ -140,7 +140,17 @@ navbar= add animation to navbar content.
 
 @media only screen and (min-width: 600px) {}
 
-@media only screen and (min-width: 750px) {}
+@media only screen and (min-width: 750px) {
+    .hero__cta button:nth-child(2) {
+        background: #FFE1E1;
+    }
+
+
+    .hero__cta button:nth-child(2):hover,
+    .hero__cta button:nth-child(2):active {
+        background: none;
+    }
+}
 
 @media only screen and (min-width: 950px) {}
 
