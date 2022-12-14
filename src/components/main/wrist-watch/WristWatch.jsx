@@ -5,7 +5,7 @@ const WristWatch = () => {
   return (
     <div className="watch__container wrist-watch">
       <div className="watch__topbar">
-        <hr />
+        <hr style={{ width: "98%", border: "1px solid #7F8487", margin: "0 auto" }} />
         <h1>ساعت های مچی</h1>
       </div>
 
