@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import Home from "./components/main/home/Home";
+import WristWatch from "./components/main/wrist-watch/WristWatch";
 import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       <Home />
+      <WristWatch />
     </div>
   );
 };

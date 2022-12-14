@@ -100,7 +100,6 @@ third txt color: 7F8487
 .App {
     width: 100%;
     height: var(--visual-height);
-    overflow: hidden;
 }
 
 
