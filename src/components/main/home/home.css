@@ -91,8 +91,24 @@
     background: #fcd7d7;
 }
 
+.hero__cta button:nth-child(1) {
+    animation: left__right 1.5s 1 forwards;
+}
+
 .hero__cta button:nth-child(2) {
     background: none;
+    animation: left__right 1.5s .5s 1 forwards;
+    transform: translate(-900px, -200px);
+}
+
+@keyframes left__right {
+    0% {
+        transform: translate(-900px, -200px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
 }
 
 .hero__cta button:nth-child(2):hover,
@@ -100,13 +116,6 @@
     background: #FFE1E1;
 }
 
-/* 
-1= add animation to hero text.
-*/
-
-/* 
-2= add animation to cta btn.
-*/
 
 
 
