@@ -54,7 +54,6 @@
     top: 30px;
 }
 
-
 .prev__slider:hover,
 .next__slider:hover,
 .prev__slider:active,
@@ -63,27 +62,96 @@
 }
 
 .box__slider {
-    display: grid;
-    grid-auto-columns: minmax(300px, 300px);
-    justify-content: center;
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
     overflow-x: auto;
-    overflow-y: hidden;
+    padding: 2rem 0;
 }
 
 .slider__card {
     width: 200px;
+    min-width: 200px;
     height: 300px;
-    border: 1px solid #7F8487;
+    border: 1px solid #c7cbcc;
     border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 9px -3px #8F8F8F;
+    box-shadow: 0px 5px 9px -3px #8F8F8F;
 }
 
-.slider__card img{
+.slider__card img {
     width: 100%;
     object-fit: cover;
     border-radius: 5px;
+    transform-origin: 0 0;
+    transition: transform .3s, visibility .25s ease-in;
 }
 
+.card__content {
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    margin: 0;
+    background: rgba(255, 135, 135, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+    transition: .4s all ease-in;
+    opacity: 0;
+}
 
+.slider__card:hover .card__content,
+.slider__card:active .card__content {
+    height: 200px;
+    transition: .3s all ease-in;
+    padding: .5rem;
+    opacity: 1;
+}
+
+.slider__card:hover img,
+.slider__card:active img {
+    transform: scale(1.1);
+}
+
+.card__brand {
+    font-size: 1.4rem;
+    font-family: cursive;
+    font-weight: 700;
+    margin-bottom: .8rem;
+}
+
+.card__detail {
+    font-size: 1.4rem;
+    font-family: 'Shabnam';
+    margin: .8rem 0;
+}
+
+.card__price {
+    font-size: 1.5rem;
+    font-family: 'Shabnam';
+}
+
+.card__cta {
+    width: 180px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: #000;
+    color: #ff8787;
+    font-family: 'Shabnam';
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1.5rem 0 0 0;
+}
 
 /*******/
 /*************/
