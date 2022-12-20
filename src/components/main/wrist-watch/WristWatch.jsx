@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./wristWatch.css";
 import wrist1 from "../../../assets/image/wrist2.jpg";
 
 const WristWatch = () => {
+  const carousel = useRef();
+
+  const incrementCarousel = (delta) => {
+    if (carousel.current) {
+      const width = carousel.current.offsetWidth;
+      carousel.current.scrollTo(carousel.current.scrollLeft + width * delta, 0);
+    }
+  };
+
   return (
     <div className="watch__container wrist-watch">
       <div className="watch__topbar">
@@ -19,7 +28,11 @@ const WristWatch = () => {
       </div>
 
       <main className="watch__slider__wrapper">
-        <section className="box__slider">
+        <div
+          className="slider__prev"
+          onClick={() => incrementCarousel(-1)}
+        ></div>
+        <section className="box__slider" ref={carousel}>
           <div className="slider__card">
             <img alt="watch" src={wrist1} />
             <div className="card__content">
@@ -93,6 +106,10 @@ const WristWatch = () => {
             </div>
           </div>
         </section>
+        <div
+          className="slider__next"
+          onClick={() => incrementCarousel(1)}
+        ></div>
       </main>
     </div>
   );
