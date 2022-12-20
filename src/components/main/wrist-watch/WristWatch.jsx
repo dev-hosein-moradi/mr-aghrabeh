@@ -19,7 +19,6 @@ const WristWatch = () => {
       </div>
 
       <main className="watch__slider__wrapper">
-        <span className="prev__slider">P</span>
         <section className="box__slider">
           <div className="slider__card">
             <img alt="watch" src={wrist1} />
@@ -94,7 +93,6 @@ const WristWatch = () => {
             </div>
           </div>
         </section>
-        <span className="next__slider">N</span>
       </main>
     </div>
   );

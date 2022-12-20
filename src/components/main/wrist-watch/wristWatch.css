@@ -1,3 +1,8 @@
+::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
+}
+
 .watch__container {
     width: 98%;
     height: fit-content;
@@ -29,44 +34,15 @@
     position: relative;
 }
 
-.prev__slider,
-.next__slider {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 2px solid #7F8487;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.prev__slider {
-    position: absolute;
-    left: 0;
-    top: 30px;
-}
-
-.next__slider {
-    position: absolute;
-    right: 0;
-    top: 30px;
-}
-
-.prev__slider:hover,
-.next__slider:hover,
-.prev__slider:active,
-.next__slider:active {
-    border-color: #ff8787;
-}
-
 .box__slider {
     width: 100%;
     min-width: 300px;
     display: flex;
     flex-direction: row;
     column-gap: 20px;
-    overflow-x: auto;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
     padding: 2rem 0;
 }
 
@@ -81,6 +57,7 @@
     cursor: pointer;
     -webkit-box-shadow: 0px 5px 9px -3px #8F8F8F;
     box-shadow: 0px 5px 9px -3px #8F8F8F;
+    scroll-snap-align: start;
 }
 
 .slider__card img {
@@ -172,13 +149,7 @@
 
 @media only screen and (min-width: 460px) {}
 
-@media only screen and (min-width: 550px) {
-
-    .prev__slider,
-    .next__slider {
-        display: flex;
-    }
-}
+@media only screen and (min-width: 550px) {}
 
 @media only screen and (min-width: 600px) {}
 
