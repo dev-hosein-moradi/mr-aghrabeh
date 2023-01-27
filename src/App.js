@@ -31,7 +31,7 @@ const App = () => {
       <Navbar />
       <Home />
       <WristWatch />
-      <WallWatch />
+      {/* <WallWatch /> */}
     </div>
   );
 };
