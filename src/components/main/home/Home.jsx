@@ -1,9 +1,11 @@
 import React from "react";
+import SvgDownload from "../../../assets/SVGs/SvgDownload";
 import "./home.css";
 
 const Home = () => {
   return (
     <div className="home">
+      <div className="hero__img">{/* <img src={hero} alt="hero" /> */}</div>
       <section className="hero">
         <div className="hero__text">
           <h1>مستر عقربه</h1>
@@ -12,7 +14,10 @@ const Home = () => {
           <p>با مستر عقربه زمان را سپری کن</p>
         </div>
         <div className="hero__cta">
-          <button>دانلود</button>
+          <button>
+            دانلود
+            <SvgDownload width={17} height={17} />
+          </button>
           <button>مشاهده محصولات</button>
         </div>
       </section>

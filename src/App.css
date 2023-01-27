@@ -13,7 +13,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #ffffff;
+    background: #191919;
     overflow-x: hidden;
 }
 
@@ -54,6 +54,7 @@ a {
 /* Track */
 ::-webkit-scrollbar-track {
     border-radius: 10px;
+    background: #fff;
 }
 
 /* Handle */
@@ -121,6 +122,7 @@ third txt color: 7F8487
 }
 
 .App {
+    background-color: #191919;
     width: 100%;
     height: var(--visual-height);
 }

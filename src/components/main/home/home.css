@@ -1,14 +1,32 @@
 .home {
     padding: 1rem 0;
     overflow-x: hidden;
+    position: relative;
+}
+
+.hero__img {
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 30px 60px rgba(25, 25, 25, 0.75) inset;
+    -webkit-box-shadow: 0px 0px 30px 60px rgba(25, 25, 25, 0.75) inset;
+    -moz-box-shadow: 0px 0px 30px 60px rgba(25, 25, 25, 0.75) inset;
+    background-image: url(/src/assets/image/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: border-box;
 }
 
 .hero {
-    background: url(/src/assets/image/hero.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
+    background: #191919;
     width: 100%;
     height: 100%;
     min-height: 90vh;
@@ -20,12 +38,8 @@
 
 .hero__text {
     font-family: 'Shabnam';
-    background: rgba(255, 225, 225, .6);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
     height: fit-content;
     width: 100%;
     max-width: 290px;
@@ -33,6 +47,7 @@
     padding: 1rem .5rem;
     text-align: center;
     animation: right__left 1.5s 1 forwards;
+    text-shadow: 0 0.1rem 1rem #6d6868;
 }
 
 @keyframes right__left {
@@ -48,14 +63,14 @@
 .hero__text h1 {
     font-size: 1.8rem;
     font-weight: 900;
-    color: #000;
+    color: #fff;
     margin-bottom: .8rem;
 }
 
 .hero__text h4 {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #3C4048;
+    color: #c9c9c9;
     width: 100%;
     max-width: 280px;
 }
@@ -63,7 +78,7 @@
 .hero__text p {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #3C4048;
+    color: #a1a1a1;
     margin-top: .8rem;
 }
 
@@ -80,16 +95,21 @@
     border-radius: 5px;
     border: 2px solid #7F8487;
     outline: none;
-    background: #FFE1E1;
-    font-size: 1.4rem;
+    background: #fcd7d7;
+    font-size: 1.45rem;
     font-family: 'Shabnam';
     cursor: pointer;
     transition: .2s all ease-in;
 }
 
-.hero__cta button:nth-child(1):hover,
-.hero__cta button:nth-child(1):active {
-    background: #fcd7d7;
+.hero__cta button svg {
+    margin: 0 1rem;
+}
+
+.hero__cta button:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero__cta button:nth-child(1) {
@@ -100,6 +120,7 @@
     background: none;
     animation: left__right 1.5s .5s 1 forwards;
     transform: translate(-900px, -200px);
+    color: #fff;
 }
 
 @keyframes left__right {
@@ -111,12 +132,6 @@
         transform: translate(0, 0);
     }
 }
-
-.hero__cta button:nth-child(2):hover,
-.hero__cta button:nth-child(2):active {
-    background: #FFE1E1;
-}
-
 
 
 
@@ -155,17 +170,46 @@
 
 @media only screen and (min-width: 550px) {}
 
-@media only screen and (min-width: 600px) {}
-
-@media only screen and (min-width: 750px) {
-    .hero__cta button:nth-child(2) {
-        background: #FFE1E1;
+@media only screen and (min-width: 600px) {
+    .hero__img {
+        display: none;
     }
 
+    .hero {
+        background-image: url(/src/assets/image/hero.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-    .hero__cta button:nth-child(2):hover,
-    .hero__cta button:nth-child(2):active {
-        background: none;
+    .hero__text {
+        max-width: 400px;
+        text-shadow: 0 0.1rem 1rem #f0c4c4;
+    }
+
+    .hero__text h1 {
+        font-size: 4rem;
+    }
+
+    .hero__text h4 {
+        color: #f7f7f7;
+        font-size: 2.5rem;
+        max-width: 380px;
+    }
+
+    .hero__text p {
+        color: #ececec;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .hero__text {
+        max-width: 600px;
+    }
+
+    .hero__text h4 {
+        font-size: 2.5rem;
+        max-width: 580px;
     }
 }
 
