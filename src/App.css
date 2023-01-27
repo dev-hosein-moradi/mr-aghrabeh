@@ -15,7 +15,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #ffffff;
     overflow-x: hidden;
-    overflow-x: hidden;
 }
 
 input,
@@ -124,7 +123,6 @@ third txt color: 7F8487
 .App {
     width: 100%;
     height: var(--visual-height);
-
 }
 
 
