@@ -5,8 +5,8 @@
 }
 
 .hero__img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
@@ -93,9 +93,10 @@
     height: 40px;
     margin: .5rem 0;
     border-radius: 5px;
-    border: 2px solid #7F8487;
+    border: 2px solid #fcd7d7;
     outline: none;
     background: #fcd7d7;
+    box-shadow: 0 0.1rem 1rem #fdbfbfad;
     font-size: 1.45rem;
     font-family: 'Shabnam';
     cursor: pointer;
