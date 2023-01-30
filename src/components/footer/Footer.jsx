@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { FaGoogle } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -80,8 +80,8 @@ const Footer = () => {
           <div className="card__items">
             <div className="item-box">
               <a href="/">
-                <p>E-mail</p>
-                <FaGoogle fontSize={18} />
+                <p>Twitter</p>
+                <FaTwitter fontSize={18} />
               </a>
 
               <a href="/">
