@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
+import Awards from "./components/main/awards/Awards";
 import Home from "./components/main/home/Home";
 import Introducing from "./components/main/introducing/Introducing";
 import WallWatch from "./components/main/wall-watch/WallWatch";
@@ -34,6 +35,7 @@ const App = () => {
       <WristWatch />
       <WallWatch />
       <Introducing />
+      <Awards />
     </div>
   );
 };

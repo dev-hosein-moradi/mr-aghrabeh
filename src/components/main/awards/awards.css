@@ -1,0 +1,85 @@
+.awards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.award__topbar {
+    position: relative;
+    width: 100%;
+    margin: 6rem 0;
+}
+
+.award__topbar h1 {
+    font-family: 'Shabnam';
+    background: #191919;
+    color: #fff;
+    position: absolute;
+    top: -17px;
+    right: 20px;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+}
+
+.award__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.award3 .award__image{
+    max-width: 320px;
+}
+
+.award3 .award__text{
+    margin-bottom: 0;
+}
+
+.award__text {
+    font-family: 'Shabnam';
+    padding: 2rem 1.5rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.award__text h3 {
+    font-size: 1.6rem;
+    color: rgb(231, 231, 231);
+    margin-bottom: 1.5rem;
+    word-wrap: normal;
+}
+
+.award__text h6 {
+    font-size: 1.28rem;
+    color: rgb(160, 160, 160);
+    line-height: 2;
+    word-wrap: normal;
+}
+
+.award__rate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Shabnam';
+    margin: .5rem 0 2.5rem 0;
+}
+
+.award__rate span {
+    height: 50px;
+    margin: .5rem 0;
+}
+
+.award__rate span p:nth-child(1) {
+    color: rgb(224, 224, 224);
+    font-size: 1.35rem;
+    margin-bottom: .3rem;
+}
+
+.award__rate span p:nth-child(2) {
+    color: rgb(165, 165, 165);
+    font-size: 1.35rem;
+}
