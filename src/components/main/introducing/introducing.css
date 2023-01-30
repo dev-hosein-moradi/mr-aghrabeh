@@ -110,10 +110,69 @@
 
 @media only screen and (min-width: 600px) {}
 
-@media only screen and (min-width: 750px) {}
+@media only screen and (min-width: 750px) {
+    .introduce__watch {
+        align-items: unset !important;
+        padding: 0 2rem;
+    }
 
-@media only screen and (min-width: 950px) {}
+    .introduce__bracelet {
+        align-items: unset !important;
+        padding: 0 2rem;
+    }
 
-@media only screen and (min-width: 1024px) {}
+    .intro__text {
+        width: 50%;
+        text-align: center;
+    }
+
+    .introduce__watch .top-img {
+        align-self: flex-end;
+    }
+
+    .introduce__watch .box2 {
+        align-self: flex-end;
+        margin: 3rem 0 0 0;
+    }
+
+    .introduce__watch .middle-img {
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .introduce__bracelet .bottom-img {
+        align-self: flex-end;
+    }
+
+    .intro__img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .intro__img img {
+        border-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .intro__text h3 {
+        font-size: 2.5rem;
+    }
+
+    .intro__text p {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .intro__img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .intro__img img {
+        border-radius: 0;
+    }
+}
 
 @media only screen and (min-width: 1300px) {}
