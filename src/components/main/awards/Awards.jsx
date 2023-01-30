@@ -32,23 +32,23 @@ const Awards = () => {
             ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
             کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
           </h6>
-          {/* The number of shops in the competition  */}
-          <div className="award__rate">
-            <span>
-              <p>تعداد تیم های حاضر در مسابقه</p>
-              <p>20</p>
-            </span>
+        </div>
+        {/* The number of shops in the competition  */}
+        <div className="award__rate">
+          <span>
+            <p>تعداد تیم های حاضر در مسابقه</p>
+            <p>20</p>
+          </span>
 
-            <span>
-              <p>تعداد عناوین کسب شده</p>
-              <p>8</p>
-            </span>
+          <span>
+            <p>تعداد عناوین کسب شده</p>
+            <p>8</p>
+          </span>
 
-            <span>
-              <p>رتبه در مسابقه</p>
-              <p>1</p>
-            </span>
-          </div>
+          <span>
+            <p>رتبه در مسابقه</p>
+            <p>1</p>
+          </span>
         </div>
       </section>
 
@@ -61,23 +61,23 @@ const Awards = () => {
             استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است
           </h6>
-          {/* The number of shops in the competition  */}
-          <div className="award__rate">
-            <span>
-              <p>تعداد نیروی کار در 1401</p>
-              <p>2000</p>
-            </span>
+        </div>
+        {/* The number of shops in the competition  */}
+        <div className="award__rate">
+          <span>
+            <p>تعداد نیروی کار در 1401</p>
+            <p>2000</p>
+          </span>
 
-            <span>
-              <p>تعداد نیروی کار در 1400</p>
-              <p>1500</p>
-            </span>
+          <span>
+            <p>تعداد نیروی کار در 1400</p>
+            <p>1500</p>
+          </span>
 
-            <span>
-              <p>تعداد نیروی کار در 1399</p>
-              <p>1000</p>
-            </span>
-          </div>
+          <span>
+            <p>تعداد نیروی کار در 1399</p>
+            <p>1000</p>
+          </span>
         </div>
       </section>
       {/* third award */}
@@ -85,7 +85,7 @@ const Awards = () => {
         <div className="award__text">
           <h3>دارای نمایندگی های رسمی در تمام کلان شهر های ایران</h3>
         </div>
-        
+
         <div className="award__image">
           <SvgIran width={200} height={200} />
         </div>

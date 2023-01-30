@@ -27,13 +27,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
-.award3 .award__image{
+.award3 .award__image {
     max-width: 320px;
 }
 
-.award3 .award__text{
+.award3 .award__text {
     padding-bottom: 0;
 }
 
@@ -83,3 +84,119 @@
     color: rgb(165, 165, 165);
     font-size: 1.35rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******/
+/*************/
+/*********************/
+/******************************/
+/***************************************/
+/****************** media query *****************/
+/***************************************/
+/******************************/
+/*********************/
+/*************/
+/*******/
+
+@media only screen and (min-width: 320px) {}
+
+@media only screen and (min-width: 420px) {}
+
+@media only screen and (min-width: 460px) {}
+
+@media only screen and (min-width: 550px) {}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 750px) {
+    .award__content {
+        align-items: unset !important;
+        padding: 0 5%;
+    }
+
+    .award__image {
+        margin: 1rem auto;
+    }
+
+    .award__text {
+        text-align: center;
+        margin: 0;
+    }
+
+    .award1 {
+        margin-bottom: 2rem;
+    }
+
+    .award1 .award__text {
+        width: 400px;
+        align-self: flex-start;
+        padding-bottom: 0;
+    }
+
+    .award1 .award__rate {
+        align-self: flex-end;
+        margin-top: 0;
+    }
+
+    .award2 .award__text {
+        width: 400px;
+        align-self: flex-end;
+        padding-bottom: 0;
+    }
+
+    .award2 .award__rate {
+        align-self: flex-start;
+        margin-top: 0;
+    }
+
+
+    .award3 .award__image {
+        max-width: 400px;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .award__content {
+        padding: 0 10%;
+    }
+
+    .award__text h3 {
+        font-size: 2rem;
+    }
+
+    .award__text h6 {
+        font-size: 1.5rem;
+    }
+
+    .award__rate span p:nth-child(1) {
+        font-size: 1.6rem;
+    }
+
+    .award__rate span p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (min-width: 1300px) {}
