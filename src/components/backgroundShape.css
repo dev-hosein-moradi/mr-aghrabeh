@@ -1,0 +1,45 @@
+.bg__shapes {
+    color: #fff;
+    position: absolute;
+    z-index: 0;
+    width: 400px;
+}
+
+/* shape 1 */
+.shape1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid #5e3170;
+    box-shadow: 0 0.1rem 1rem #5e3170;
+    transform: scale(0.5, 0.5) translate(0, 0);
+    animation: anim1 30s infinite;
+}
+
+@keyframes anim1 {
+    50% {
+        transform: scale(0.5, 0.5) translate(-1000px, 200px);
+    }
+
+    100% {
+        transform: scale(0.5, 0.5) translate(200px, 700px);
+    }
+}
+
+.shape1:nth-child(2) {
+    border: 1px solid #ea1bf1;
+    box-shadow: 0 0.1rem 1rem #ea1bf1;
+    transform: scale(0.5, 0.5) translate(-1000px, -100px);
+    animation: anim2 30s infinite;
+}
+
+@keyframes anim2 {
+    50% {
+        transform: scale(0.5, 0.5) translate(-500px, 700px);
+    }
+
+    100% {
+        transform: scale(0.5, 0.5) translate(100px, 1500px);
+    }
+}

@@ -2,6 +2,7 @@ import React, { useEffect, useReducer, useRef } from "react";
 import "./wristWatch.css";
 import wrist1 from "../../../assets/image/wrist2.jpg";
 import SvgArrow from "../../../assets/SVGs/SvgArrow";
+import BackgroundShape from "../../BackgroundShape";
 
 const slides = [
   {
@@ -115,7 +116,7 @@ const Slide = ({ slide, offset }) => {
       style={{
         "--offset": offset,
         "--dir": offset === 0 ? 0 : offset > 0 ? 1 : -1,
-        backgroundImage: `url(${wrist1})`
+        backgroundImage: `url(${wrist1})`,
       }}
     >
       {/* <div className="slide__img">
@@ -135,6 +136,7 @@ const WristWatch = () => {
   const [state, dispatch] = useReducer(sliesReducer, initialState);
   return (
     <div className="watch__container wrist-watch">
+      <BackgroundShape />
       <div className="watch__topbar">
         <hr
           style={{
