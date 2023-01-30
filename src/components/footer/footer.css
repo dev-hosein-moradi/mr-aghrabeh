@@ -1,0 +1,139 @@
+.footer {
+    background-image: linear-gradient(to bottom, #191919, #342846, #5e3170, #962e91, #d800a6);
+
+    padding: 4rem .5rem 1rem .5rem;
+    margin: 4rem auto 0 auto;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fast-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    min-width: 300px;
+    padding: 1rem 0;
+}
+
+.fast-links ul {
+    width: 120px;
+    margin: 0 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fast-links ul a {
+    font-family: 'shabnam';
+    text-align: center;
+    font-size: 1.5rem;
+
+    color: #fff;
+    height: 30px;
+    width: 80px;
+
+    margin: .5rem 0;
+    padding: .5rem 0;
+}
+
+.fast-links ul a li {
+    text-shadow: 0 0.1rem 1rem #141414;
+    letter-spacing: .2px;
+}
+
+.contact-developer {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.dev__card {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__title {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: cursive;
+    letter-spacing: 2px;
+}
+
+.card__title p:nth-child(2) {
+    margin-left: 1rem;
+    font-size: 1.7rem !important;
+    font-family: 900 !important;
+}
+
+.card__items {
+    width: 100%;
+    margin: 1rem 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card__items .item-box a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+    margin: .5rem 0;
+    height: 35px;
+
+    font-size: 1.5rem;
+    font-family: cursive;
+    letter-spacing: 1.2px;
+
+    color: rgb(226, 226, 226);
+}
+
+.card__items .item-box a p {
+    margin-left: .5rem;
+    text-shadow: 0 0.1rem 1rem #fad8d8;
+}
+
+.dev__card button {
+    width: 150px;
+    height: 40px;
+
+    border: 2px solid #fcd7d7;
+    border-radius: 5px;
+    outline: none;
+    background: #fcd7d7;
+    box-shadow: 0 0.1rem 1rem #fdbfbfad;
+    cursor: pointer;
+
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

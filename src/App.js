@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
+import Footer from "./components/footer/Footer";
 import Awards from "./components/main/awards/Awards";
 import Home from "./components/main/home/Home";
 import Introducing from "./components/main/introducing/Introducing";
@@ -36,6 +37,7 @@ const App = () => {
       <WallWatch />
       <Introducing />
       <Awards />
+      <Footer />
     </div>
   );
 };
