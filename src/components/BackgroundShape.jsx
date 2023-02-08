@@ -7,7 +7,6 @@ const BackgroundShape = () => {
       {/* circle */}
       <div className="shape1"></div>
       <div className="shape1"></div>
-      
     </section>
   );
 };
