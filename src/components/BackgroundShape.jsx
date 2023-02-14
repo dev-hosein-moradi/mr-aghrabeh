@@ -3,11 +3,22 @@ import "./backgroundShape.css";
 
 const BackgroundShape = () => {
   return (
-    <section className="bg__shapes">
+    <>
       {/* circle */}
       <div className="shape1"></div>
       <div className="shape1"></div>
-    </section>
+      <div className="shape1"></div>
+      <div className="shape1"></div>
+      <div className="shape1"></div>
+      <div className="shape1"></div>
+
+      {/* squre */}
+      <div className="shape1 star"></div>
+      <div className="shape1 star"></div>
+      <div className="shape1 star"></div>
+      <div className="shape1 star"></div>
+      <div className="shape1 star"></div>
+    </>
   );
 };
 

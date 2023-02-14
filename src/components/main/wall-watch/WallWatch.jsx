@@ -2,6 +2,7 @@ import React, { useEffect, useReducer, useRef } from "react";
 import "../wrist-watch/wristWatch.css";
 import wrist1 from "../../../assets/image/wrist2.jpg";
 import SvgArrow from "../../../assets/SVGs/SvgArrow";
+import BackgroundShape from "../../BackgroundShape";
 
 const slides = [
   {
@@ -132,6 +133,7 @@ const WallWatch = () => {
   const [state, dispatch] = useReducer(sliesReducer, initialState);
   return (
     <div className="watch__container wall-watch">
+    <BackgroundShape />
       <div className="watch__topbar">
         <hr
           style={{
