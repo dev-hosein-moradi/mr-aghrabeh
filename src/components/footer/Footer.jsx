@@ -28,48 +28,108 @@ const Footer = () => {
       <section className="footer__content fast-links">
         {/* link box 1 */}
         <ul className="link__box box1">
-          <a href="/" data-aos="fade-up">
+          <a
+            href="/"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up">
+          <a
+            href="/"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up">
+          <a
+            href="/"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up">
+          <a
+            href="/"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <li>خدمات</li>
           </a>
         </ul>
 
         {/* link box 2 */}
         <ul className="link__box box2">
-          <a href="/" data-aos="fade-up">
+          <a
+            href="/"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up">
+          <a
+            href="/"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up">
+          <a
+            href="/"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up">
+          <a
+            href="/"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <li>خدمات</li>
           </a>
         </ul>
 
         {/* link box 3 */}
         <ul className="link__box box3">
-          <a href="/" data-aos="fade-up">
+          <a
+            href="/"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up">
+          <a
+            href="/"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up">
+          <a
+            href="/"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up">
+          <a
+            href="/"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <li>خدمات</li>
           </a>
         </ul>
@@ -77,7 +137,12 @@ const Footer = () => {
 
       {/* contact developer */}
       <section className="footer__content contact-developer">
-        <div className="dev__card" data-aos="zoom-in-down">
+        <div
+          className="dev__card"
+          data-aos="zoom-in-down"
+          data-aos-offset="100"
+          data-aos-duration="1000"
+        >
           <div className="card__title">
             <p>Hosein</p>
             <p>Moradi</p>

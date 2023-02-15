@@ -146,6 +146,8 @@ const WristWatch = () => {
       <div className="watch__topbar">
         <hr
           data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-duration="1000"
           style={{
             width: "98%",
             height: "1px",
@@ -154,11 +156,18 @@ const WristWatch = () => {
             margin: "0 auto",
           }}
         />
-        <h1 data-aos="fade-down">ساعت های مچی</h1>
+        <h1 data-aos="fade-down" data-aos-offset="100" data-aos-duration="1000">
+          ساعت های مچی
+        </h1>
       </div>
 
       <main className="watch__slider__wrapper">
-        <section className="slides" data-aos="fade-up">
+        <section
+          className="slides"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-duration="1000"
+        >
           <button onClick={() => dispatch({ type: "PREV" })}>
             <SvgArrow width={11} height={20} />
           </button>
