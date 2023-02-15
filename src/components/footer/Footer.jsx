@@ -29,48 +29,48 @@ const Footer = () => {
       <section className="footer__content fast-links">
         {/* link box 1 */}
         <ul className="link__box box1">
-          <a href="/" data-aos="fade-up-right">
+          <a href="/" data-aos="fade-up">
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up-left">
+          <a href="/" data-aos="fade-up">
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up-right">
+          <a href="/" data-aos="fade-up">
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up-left">
+          <a href="/" data-aos="fade-up">
             <li>خدمات</li>
           </a>
         </ul>
 
         {/* link box 2 */}
         <ul className="link__box box2">
-          <a href="/" data-aos="fade-up-right">
+          <a href="/" data-aos="fade-up">
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up-left">
+          <a href="/" data-aos="fade-up">
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up-right">
+          <a href="/" data-aos="fade-up">
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up-left">
+          <a href="/" data-aos="fade-up">
             <li>خدمات</li>
           </a>
         </ul>
 
         {/* link box 3 */}
         <ul className="link__box box3">
-          <a href="/" data-aos="fade-up-right">
+          <a href="/" data-aos="fade-up">
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up-left">
+          <a href="/" data-aos="fade-up">
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up-right">
+          <a href="/" data-aos="fade-up">
             <li>خدمات</li>
           </a>
-          <a href="/" data-aos="fade-up-left">
+          <a href="/" data-aos="fade-up">
             <li>خدمات</li>
           </a>
         </ul>
