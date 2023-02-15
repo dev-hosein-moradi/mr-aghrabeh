@@ -28,26 +28,26 @@ const Introducing = () => {
       {/* title 1 for watchs */}
       <section className="introduce__watch container">
         <div className="intro__text box1">
-          <h3 data-aos="zoom-in-up">شیک ترین ساعت های جهان</h3>
+          <h3 data-aos="zoom-in">شیک ترین ساعت های جهان</h3>
           <p data-aos="fade-up" data-aos-anchor-placement="bottom-center">
             مستر عقربه با داشتن کامل ترین کلکسیون ساعت, معتبر ترین مرکز فروش
             ساعت و زیورآلات است
           </p>
         </div>
 
-        <div className="intro__img top-img" data-aos="fade-up-right">
+        <div className="intro__img top-img" data-aos="fade-up">
           <img loading="lazy" src={introImg1} alt="" />
         </div>
 
         <div className="intro__text box2">
-          <h3 data-aos="zoom-in-up">متناسب با هر پوششی</h3>
+          <h3 data-aos="zoom-in">متناسب با هر پوششی</h3>
           <p data-aos="fade-up" data-aos-anchor-placement="bottom-center">
             در فروشگاه ما شما می توانید هر سبک ساعتی را پیدا کنید مطابق با پوشش
             و نیاز خود
           </p>
         </div>
 
-        <div className="intro__img middle-img" data-aos="fade-up-left">
+        <div className="intro__img middle-img" data-aos="fade-up">
           <img loading="lazy" src={introImg2} alt="" />
         </div>
       </section>
@@ -55,14 +55,14 @@ const Introducing = () => {
       {/* title 2 for bracelets */}
       <section className="introduce__bracelet container">
         <div className="intro__text box3">
-          <h3 data-aos="zoom-in-up">دستبند های خاص و جذاب</h3>
+          <h3 data-aos="zoom-in">دستبند های خاص و جذاب</h3>
           <p data-aos="fade-up" data-aos-anchor-placement="bottom-center">
             دستنبد های خاص و در هر سبکی که بخواهید در مجموعه ما موجود است. که می
             توانید چشم خواهرشوهر خود را در بیاورید
           </p>
         </div>
 
-        <div className="intro__img bottom-img" data-aos="fade-up-right">
+        <div className="intro__img bottom-img" data-aos="fade-up">
           <img loading="lazy" src={introImg3} alt="" />
         </div>
       </section>
