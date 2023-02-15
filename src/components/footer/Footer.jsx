@@ -5,7 +5,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaFileDownload } from "react-icons/fa";
-import image from "./wall1.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -109,7 +108,11 @@ const Footer = () => {
             </div>
           </div>
           <button
-            onClick={() => downloadCV("http://localhost:3000/logo192.png")}
+            onClick={() =>
+              downloadCV(
+                "https://mr-aghrabeh.vercel.app/Hosein-moradi-resume.pdf"
+              )
+            }
           >
             <FaFileDownload />
             Download CV
