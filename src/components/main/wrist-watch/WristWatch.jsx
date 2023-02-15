@@ -142,15 +142,7 @@ const WristWatch = () => {
   }, []);
   return (
     <div className="watch__container wrist-watch">
-      <div className="bg__shape1"></div>
-      <div className="bg__shape1"></div>
-      <div className="bg__shape1"></div>
-      <div className="bg__shape1"></div>
-      <div className="bg__shape1"></div>
-      <div className="bg__shape1"></div>
-      <div className="bg__shape1"></div>
-      <div className="bg__shape1"></div>
-      <div className="bg__shape1"></div>
+      <BackgroundShape />
       <div className="watch__topbar">
         <hr
           data-aos="fade-up"

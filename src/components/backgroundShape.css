@@ -11,111 +11,198 @@
 .shape1:nth-child(1) {
     box-shadow: 15px 15px 0 0 #5e317038;
     transform: scale(0.2, 0.2);
-    animation: anim1 60s infinite;
-    animation-delay: 1s;
-    left: 20px;
-    top: 850px;
+    animation: anim1 5s infinite;
+    animation-delay: -2s;
+    left: 1%;
+    top: 650px;
+    opacity: 0;
 }
 
 @keyframes anim1 {
+    25% {
+        opacity: 1;
+    }
+
     50% {
-        transform: scale(0.2, 0.2) translate(40px, 1700px);
+        opacity: 1;
     }
 
     100% {
-        transform: scale(0.2, 0.2) translate(0, 0);
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
     }
 }
 
 .shape1:nth-child(2) {
     box-shadow: 15px 15px 0 0 #ea1bf11f;
-    animation: anim2 60s infinite;
+    animation: anim2 5s infinite;
+    animation-delay: 4.5s;
     transform: scale(0.2, 0.2);
-    left: 80px;
-    top: 900px;
+    left: 10%;
+    top: 600px;
+    opacity: 0;
 }
 
 @keyframes anim2 {
+    25% {
+        opacity: 1;
+    }
+
     50% {
-        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 1;
     }
 
     100% {
-        transform: scale(0.2, 0.2) translate(0, 0);
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
     }
 }
 
 .shape1:nth-child(3) {
     box-shadow: 15px 15px 0 0 #e4419b1e;
-    animation: anim3 60s infinite;
+    animation: anim3 5s infinite;
     animation-delay: 2s;
     transform: scale(0.2, 0.2);
-    left: 140px;
-    top: 850px;
+    left: 20%;
+    top: 650px;
+    opacity: 0;
 }
 
 @keyframes anim3 {
+    25% {
+        opacity: 1;
+    }
+
     50% {
-        transform: scale(0.2, 0.2) translate(-40px, 1900px);
+        opacity: 1;
     }
 
     100% {
-        transform: scale(0.2, 0.2) translate(0, 0);
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
     }
 }
 
 .shape1:nth-child(4) {
     box-shadow: 15px 15px 0 0 #7256f028;
-    animation: anim4 60s infinite;
+    animation: anim4 5s infinite;
+    animation-delay: 6s;
     transform: scale(0.2, 0.2);
-    left: 200px;
-    top: 900px;
+    left: 30%;
+    top: 600px;
+    opacity: 0;
 }
 
 @keyframes anim4 {
+    25% {
+        opacity: 1;
+    }
+
     50% {
-        transform: scale(0.2, 0.2) translate(-40px, 1700px);
+        opacity: 1;
     }
 
     100% {
-        transform: scale(0.2, 0.2) translate(0, 0);
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
     }
 }
 
 .shape1:nth-child(5) {
     box-shadow: 15px 15px 0 0 #57b2e621;
-    animation: anim5 60s infinite;
-    animation-delay: 1s;
+    animation: anim5 5s infinite;
+    animation-delay: -1s;
     transform: scale(0.2, 0.2);
-    left: 260px;
-    top: 850px;
+    right: 1%;
+    top: 650px;
+    opacity: 0;
 }
 
 @keyframes anim5 {
+    25% {
+        opacity: 1;
+    }
+
     50% {
-        transform: scale(0.2, 0.2) translate(-40px, 1800px);
+        opacity: 1;
     }
 
     100% {
-        transform: scale(0.2, 0.2) translate(0, 0);
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
     }
 }
 
 .shape1:nth-child(6) {
     box-shadow: 15px 15px 0 0 #1bf1d42a;
-    animation: anim6 60s infinite;
+    animation: anim6 5s infinite;
     transform: scale(0.2, 0.2);
-    left: 320px;
-    top: 900px;
+    right: 10%;
+    top: 600px;
+    opacity: 0;
 }
 
 @keyframes anim6 {
+    25% {
+        opacity: 1;
+    }
+
     50% {
-        transform: scale(0.2, 0.2) translate(-40px, 2000px);
+        opacity: 1;
     }
 
     100% {
-        transform: scale(0.2, 0.2) translate(0, 0);
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
+    }
+}
+
+.shape1:nth-child(7) {
+    box-shadow: 15px 15px 0 0 #1bf1d42a;
+    animation: anim7 5s infinite;
+    animation-delay: 2s;
+    transform: scale(0.2, 0.2);
+    right: 20%;
+    top: 680px;
+    opacity: 0;
+}
+
+@keyframes anim7 {
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
+    }
+}
+
+.shape1:nth-child(8) {
+    box-shadow: 15px 15px 0 0 #1bf1d42a;
+    animation: anim8 5s infinite;
+    transform: scale(0.2, 0.2);
+    right: 40%;
+    top: 620px;
+    opacity: 0;
+}
+
+@keyframes anim8 {
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
     }
 }
 
@@ -161,89 +248,187 @@
     cursor: pointer;
 }
 
-.shape1:nth-child(7) {
-    animation: anim7 60s infinite;
-    animation-delay: 1.5s;
-    left: 10px;
-    top: 850px;
-}
-
-
-
-@keyframes anim7 {
-    50% {
-        transform: scale(0.2, 0.2) translate(40px, 1900px);
-    }
-
-    100% {
-        transform: scale(0.2, 0.2) translate(0, 0);
-    }
-}
-
-.shape1:nth-child(8) {
-    animation: anim8 60s infinite;
-    animation-delay: 4s;
-    left: 60px;
-    top: 850px;
-}
-
-@keyframes anim8 {
-    50% {
-        transform: scale(0.2, 0.2) translate(40px, 2000px);
-    }
-
-    100% {
-        transform: scale(0.2, 0.2) translate(0, 0);
-    }
-}
-
 .shape1:nth-child(9) {
-    animation: anim8 60s infinite;
-    animation-delay: 3s;
-    left: 130px;
-    top: 850px;
+    animation: anim9 5s infinite;
+    animation-delay: -2s;
+    left: 3%;
+    top: 650px;
+    opacity: 0;
 }
+
+
 
 @keyframes anim9 {
+    25% {
+        opacity: 1;
+    }
+
     50% {
-        transform: scale(0.2, 0.2) translate(40px, 1500px);
+        opacity: 1;
     }
 
     100% {
-        transform: scale(0.2, 0.2) translate(0, 0);
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
     }
 }
 
 .shape1:nth-child(10) {
-    animation: anim8 60s infinite;
-    animation-delay: 2.5s;
-    left: 190px;
-    top: 850px;
+    animation: anim10 5s infinite;
+    animation-delay: 1s;
+    left: 15%;
+    top: 680px;
+    opacity: 0;
 }
 
 @keyframes anim10 {
+    25% {
+        opacity: 1;
+    }
+
     50% {
-        transform: scale(0.2, 0.2) translate(40px, 1800px);
+        opacity: 1;
     }
 
     100% {
-        transform: scale(0.2, 0.2) translate(0, 0);
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
     }
 }
 
 .shape1:nth-child(11) {
-    animation: anim8 60s infinite;
-    animation-delay: 3.2s;
-    left: 250px;
-    top: 850px;
+    animation: anim11 5s infinite;
+    animation-delay: 2s;
+    left: 3%;
+    top: 700px;
+    opacity: 0;
 }
 
 @keyframes anim11 {
+    25% {
+        opacity: 1;
+    }
+
     50% {
-        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 1;
     }
 
     100% {
-        transform: scale(0.2, 0.2) translate(0, 0);
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
+    }
+}
+
+.shape1:nth-child(12) {
+    animation: anim12 5s infinite;
+    animation-delay: 4;
+    left: 25%;
+    top: 660px;
+    opacity: 0;
+}
+
+@keyframes anim12 {
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
+    }
+}
+
+.shape1:nth-child(13) {
+    animation: anim13 5s infinite;
+    animation-delay: 5s;
+    left: 30%;
+    top: 700px;
+    opacity: 0;
+}
+
+@keyframes anim11 {
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
+    }
+}
+
+.shape1:nth-child(14) {
+    animation: anim14 5s infinite;
+    animation-delay: -3s;
+    left: 40%;
+    top: 690px;
+    opacity: 0;
+}
+
+@keyframes anim11 {
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
+    }
+}
+
+.shape1:nth-child(15) {
+    animation: anim15 5s infinite;
+    right: 1%;
+    top: 600px;
+    opacity: 0;
+}
+
+@keyframes anim15 {
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
+    }
+}
+
+.shape1:nth-child(16) {
+    animation: anim16 5s infinite;
+    animation-delay: -1s;
+    right: 20%;
+    top: 710px;
+    opacity: 0;
+}
+
+@keyframes anim16 {
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2, 0.2) translate(40px, 2000px);
+        opacity: 0;
     }
 }

@@ -1,10 +1,12 @@
 import React from "react";
-// import "./backgroundShape.css";
+import "./backgroundShape.css";
 
 const BackgroundShape = () => {
   return (
     <>
-      {/* circle */}
+      {/* group 1 */}
+      <div className="shape1"></div>
+      <div className="shape1"></div>
       <div className="shape1"></div>
       <div className="shape1"></div>
       <div className="shape1"></div>
@@ -12,7 +14,9 @@ const BackgroundShape = () => {
       <div className="shape1"></div>
       <div className="shape1"></div>
 
-      {/* squre */}
+      <div className="shape1 star"></div>
+      <div className="shape1 star"></div>
+      <div className="shape1 star"></div>
       <div className="shape1 star"></div>
       <div className="shape1 star"></div>
       <div className="shape1 star"></div>
