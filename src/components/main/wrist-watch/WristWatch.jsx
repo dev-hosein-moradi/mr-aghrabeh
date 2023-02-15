@@ -3,6 +3,8 @@ import "./wristWatch.css";
 import wrist1 from "../../../assets/image/wrist2.jpg";
 import SvgArrow from "../../../assets/SVGs/SvgArrow";
 import BackgroundShape from "../../BackgroundShape";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const slides = [
   {
@@ -134,11 +136,24 @@ const Slide = ({ slide, offset }) => {
 
 const WristWatch = () => {
   const [state, dispatch] = useReducer(sliesReducer, initialState);
+
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="watch__container wrist-watch">
-      <BackgroundShape />
+      <div className="bg__shape1"></div>
+      <div className="bg__shape1"></div>
+      <div className="bg__shape1"></div>
+      <div className="bg__shape1"></div>
+      <div className="bg__shape1"></div>
+      <div className="bg__shape1"></div>
+      <div className="bg__shape1"></div>
+      <div className="bg__shape1"></div>
+      <div className="bg__shape1"></div>
       <div className="watch__topbar">
         <hr
+          data-aos="fade-up"
           style={{
             width: "98%",
             height: "1px",
@@ -147,11 +162,11 @@ const WristWatch = () => {
             margin: "0 auto",
           }}
         />
-        <h1>ساعت های مچی</h1>
+        <h1 data-aos="fade-down">ساعت های مچی</h1>
       </div>
 
       <main className="watch__slider__wrapper">
-        <section className="slides">
+        <section className="slides" data-aos="fade-up">
           <button onClick={() => dispatch({ type: "PREV" })}>
             <SvgArrow width={11} height={20} />
           </button>

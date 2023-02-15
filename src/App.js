@@ -8,6 +8,7 @@ import WallWatch from "./components/main/wall-watch/WallWatch";
 import WristWatch from "./components/main/wrist-watch/WristWatch";
 import Navbar from "./components/navbar/Navbar";
 
+
 const App = () => {
   // initialze and set visual height
   const [height, setHeight] = useState(visualViewport.height);

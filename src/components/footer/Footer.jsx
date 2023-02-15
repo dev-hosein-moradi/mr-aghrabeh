@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./footer.css";
 import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -6,6 +6,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaFileDownload } from "react-icons/fa";
 import image from "./wall1.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Footer = () => {
   const downloadCV = (url) => {
@@ -17,54 +19,58 @@ const Footer = () => {
     aTag.click();
     aTag.remove();
   };
+
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <footer className="footer">
       {/* fast links */}
       <section className="footer__content fast-links">
         {/* link box 1 */}
         <ul className="link__box box1">
-          <a href="/">
+          <a href="/" data-aos="fade-up-right">
             <li>خدمات</li>
           </a>
-          <a href="/">
+          <a href="/" data-aos="fade-up-left">
             <li>خدمات</li>
           </a>
-          <a href="/">
+          <a href="/" data-aos="fade-up-right">
             <li>خدمات</li>
           </a>
-          <a href="/">
+          <a href="/" data-aos="fade-up-left">
             <li>خدمات</li>
           </a>
         </ul>
 
         {/* link box 2 */}
         <ul className="link__box box2">
-          <a href="/">
+          <a href="/" data-aos="fade-up-right">
             <li>خدمات</li>
           </a>
-          <a href="/">
+          <a href="/" data-aos="fade-up-left">
             <li>خدمات</li>
           </a>
-          <a href="/">
+          <a href="/" data-aos="fade-up-right">
             <li>خدمات</li>
           </a>
-          <a href="/">
+          <a href="/" data-aos="fade-up-left">
             <li>خدمات</li>
           </a>
         </ul>
 
         {/* link box 3 */}
         <ul className="link__box box3">
-          <a href="/">
+          <a href="/" data-aos="fade-up-right">
             <li>خدمات</li>
           </a>
-          <a href="/">
+          <a href="/" data-aos="fade-up-left">
             <li>خدمات</li>
           </a>
-          <a href="/">
+          <a href="/" data-aos="fade-up-right">
             <li>خدمات</li>
           </a>
-          <a href="/">
+          <a href="/" data-aos="fade-up-left">
             <li>خدمات</li>
           </a>
         </ul>
@@ -72,7 +78,7 @@ const Footer = () => {
 
       {/* contact developer */}
       <section className="footer__content contact-developer">
-        <div className="dev__card">
+        <div className="dev__card" data-aos="zoom-in-down">
           <div className="card__title">
             <p>Hosein</p>
             <p>Moradi</p>

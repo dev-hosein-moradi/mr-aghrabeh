@@ -1,5 +1,5 @@
 import React from "react";
-import "./backgroundShape.css";
+// import "./backgroundShape.css";
 
 const BackgroundShape = () => {
   return (

@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SvgTeamWork from "../../../assets/SVGs/SvgTeamWork";
 import SvgIran from "../../../assets/SVGs/SvgIran";
 import "./awards.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Awards = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <main className="awards">
       <div className="award__topbar">
         <hr
+          data-aos="fade-up"
           style={{
             width: "98%",
             height: "1px",
@@ -16,17 +22,17 @@ const Awards = () => {
             margin: "0 auto",
           }}
         />
-        <h1>جوایز و افتخارات</h1>
+        <h1 data-aos="fade-up">جوایز و افتخارات</h1>
       </div>
       {/* first award */}
       <section className="award__content award1">
-        <div className="award__image">
+        <div className="award__image" data-aos="fade-up">
           <SvgTeamWork width={100} height={100} />
         </div>
 
         <div className="award__text">
-          <h3>برترین تولید کننده ساعت در سال 1400</h3>
-          <h6>
+          <h3 data-aos="fade-up">برترین تولید کننده ساعت در سال 1400</h3>
+          <h6 data-aos="fade-up">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
             استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
@@ -35,17 +41,17 @@ const Awards = () => {
         </div>
         {/* The number of shops in the competition  */}
         <div className="award__rate">
-          <span>
+          <span data-aos="fade-up">
             <p>تعداد تیم های حاضر در مسابقه</p>
             <p>20</p>
           </span>
 
-          <span>
+          <span data-aos="fade-up">
             <p>تعداد عناوین کسب شده</p>
             <p>8</p>
           </span>
 
-          <span>
+          <span data-aos="fade-up">
             <p>رتبه در مسابقه</p>
             <p>1</p>
           </span>
@@ -55,8 +61,8 @@ const Awards = () => {
       {/* second award */}
       <section className="award__content award2">
         <div className="award__text">
-          <h3>برترین کار آفرین خاورمیانه</h3>
-          <h6>
+          <h3 data-aos="fade-up">برترین کار آفرین خاورمیانه</h3>
+          <h6 data-aos="fade-up">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
             استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است
@@ -64,17 +70,17 @@ const Awards = () => {
         </div>
         {/* The number of shops in the competition  */}
         <div className="award__rate">
-          <span>
+          <span data-aos="fade-up">
             <p>تعداد نیروی کار در 1401</p>
             <p>2000</p>
           </span>
 
-          <span>
+          <span data-aos="fade-up">
             <p>تعداد نیروی کار در 1400</p>
             <p>1500</p>
           </span>
 
-          <span>
+          <span data-aos="fade-up">
             <p>تعداد نیروی کار در 1399</p>
             <p>1000</p>
           </span>
@@ -83,10 +89,12 @@ const Awards = () => {
       {/* third award */}
       <section className="award__content award3">
         <div className="award__text">
-          <h3>دارای نمایندگی های رسمی در تمام کلان شهر های ایران</h3>
+          <h3 data-aos="fade-up">
+            دارای نمایندگی های رسمی در تمام کلان شهر های ایران
+          </h3>
         </div>
 
-        <div className="award__image">
+        <div className="award__image" data-aos="fade-up">
           <SvgIran width={200} height={200} />
         </div>
       </section>

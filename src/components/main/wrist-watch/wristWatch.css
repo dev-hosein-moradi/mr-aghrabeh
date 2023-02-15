@@ -11,6 +11,142 @@
     padding: 4rem 0 0 0;
 }
 
+/* bg shape 1 */
+.bg__shape1:nth-child(1) {
+    box-shadow: 15px 15px 0 0 #fa65ed38;
+
+    position: absolute;
+    left: 5%;
+    top: 650px;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    background: none;
+    transform: scale(0.2, 0.2) translate(-50%, -50%);
+}
+
+.bg__shape1:nth-child(2) {
+    box-shadow: 15px 15px 0 0 #fa65ed38;
+
+    position: absolute;
+    left: 40%;
+    top: 710px;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    background: none;
+    transform: scale(0.2, 0.2) translate(-50%, -50%);
+}
+
+.bg__shape1:nth-child(3) {
+    box-shadow: 15px 15px 0 0 #fa65ed38;
+
+    position: absolute;
+    right: 1%;
+    top: 610px;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    background: none;
+    transform: scale(0.2, 0.2) translate(-50%, -50%);
+}
+
+.bg__shape1:nth-child(4) {
+    box-shadow: 15px 15px 0 0 #fa65ed38;
+
+    position: absolute;
+    left: 1%;
+    top: 1080px;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    background: none;
+    transform: scale(0.2, 0.2) translate(-50%, -50%);
+}
+
+.bg__shape1:nth-child(5) {
+    box-shadow: 15px 15px 0 0 #fa65ed38;
+
+    position: absolute;
+    right: 1%;
+    top: 1120px;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    background: none;
+    transform: scale(0.2, 0.2) translate(-50%, -50%);
+}
+
+.bg__shape1:nth-child(6) {
+    box-shadow: 15px 15px 0 0 #fa65ed38;
+
+    position: absolute;
+    left: 25%;
+    top: 1190px;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    background: none;
+    transform: scale(0.2, 0.2) translate(-50%, -50%);
+}
+
+.bg__shape1:nth-child(7) {
+    box-shadow: 15px 15px 0 0 #fa65ed38;
+
+    position: absolute;
+    left: 10%;
+    top: 1550px;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    background: none;
+    transform: scale(0.2, 0.2) translate(-50%, -50%);
+}
+
+.bg__shape1:nth-child(8) {
+    box-shadow: 15px 15px 0 0 #fa65ed38;
+
+    position: absolute;
+    right: 5%;
+    top: 1600px;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    background: none;
+    transform: scale(0.2, 0.2) translate(-50%, -50%);
+}
+
+.bg__shape1:nth-child(9) {
+    box-shadow: 15px 15px 0 0 #fa65ed38;
+
+    position: absolute;
+    left: 30%;
+    top: 1650px;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    background: none;
+    transform: scale(0.2, 0.2) translate(-50%, -50%);
+}
+
 .wrist-watch {
     margin-bottom: 0;
 }
